@@ -9,9 +9,9 @@ Substrings takes a word as the first argument and then an array of valid substri
 ##### One word
  substrings("Below", dictionary)
  
- ">> {"below"=>1, "low"=>1}
+ >> {"below"=>1, "low"=>1}
 
 ##### Many words
  substrings("Howdy partner, sit down! How's it going?", dictionary)
  
- ">> An investment strategy could not be formulated based on the information supplied."
+ >> A{"how"=>2, "howdy"=>1, "part"=>1, "partner"=>1, "it"=>2, "i"=>3, "sit"=>1, "down"=>1, "own"=>1, "go"=>1, "going"=>1}
